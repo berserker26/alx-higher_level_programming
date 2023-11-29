@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 def remove_char_at(str, n):
-    print('{}'.format(str), end='#!/usr/bin/python3
-def remove_char_at(str, n):
     if n < 0:
         return str
     count = 0
@@ -12,4 +10,4 @@ def remove_char_at(str, n):
             continue
         str_copy += str[count]
         count += 1
-    return str_copy')
+    return str_copy
